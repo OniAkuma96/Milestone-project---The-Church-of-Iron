@@ -33,9 +33,15 @@ I click the button to sign up for membership.
 I phone the number and book a class.
 
 ### Wireframes
-- [Mobile](https://app.mockplus.com/s/DzF1_e_bYnU)
-- [Tablet](https://app.mockplus.com/s/fFCyKyKSdY6)
-- [Desktop](https://app.mockplus.com/s/XelJQzQb3oB)
+- [Mobile Home]()
+- [Mobile Schedule]()
+- [Mobile About]()
+- [Tablet Home]()
+- [Tablet Schedule]()
+- [Tablet About]()
+- [Desktop Home]()
+- [Desktop Schedule]()
+- [Desktop About]()
 
 ## Features
 ### Existing Features
