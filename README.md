@@ -1,7 +1,8 @@
 # Religious Fitness
 
-My goal with this project was to create an attractive site for a fake gym in London. The gym is open to everyone and has a range of classes, from beginner to advanced, that members can sign up for.
-The site also has info on equipment, opening hours, location and a schedule for classes.
+My goal with this project was to create an attractive site for a fake gym in London.
+The gym is open to everyone and has a range of classes, from beginner to advanced, that members can sign up for.
+The site also has info on equipment, opening hours, location, a schedule for classes and some info on the classes from the trainers who run them.
 
 ## UX
 
@@ -18,11 +19,21 @@ These user-types will be enticed by our prices, impressed with our facilities/te
 
 Info will be grouped into three pages, home, schedule and about. The homepage will feature offers for potential members,
 info on the equipment, and testimonials from existing members. Grouping these pieces of info will hopefully encourage non-members to sign up for membership.
-The schedule page will feature a timetable of the classes, and a phone number to make a booking. Everything a member needs to book a class is on this page.
+The schedule page will feature a timetable of the classes, a phone number to make a booking, and some info on the classes from the trainers who run them.
+Everything a member needs to book a class is on this page.
 The about page will feature all the info a user could want. It will go more in-depth about the equipment, location/opening hours and the classes.
 
 The homepage will feature picutres of happy people exercising to convey the feeling that our gym is a nice place to exercise
-and the theme of the site will be blue and white.
+and the theme of the site will be blue and white for the same reason.
+
+The schedule page will have a timetable for the classes and some info about said classes, with a picture of the trainers next to the info.
+This will help members find a class that suits them. The pictures/text will hopefully encourage members to book a class by establishing a personal connection with the trainers.
+
+The about page will feature a section about the equipment with a picture. To let users know about all the equipment the gym has.
+Also a section about where to find us, with a picture/map.
+And finally a section about the classes and trainers who run them with a picture.
+
+I will use Bootstrap as a mobile-first framework for fast building and designing of the site.
 
 ### User Stories:
 - As a non-member I want to use the gym facilities. I go to the about page, check the equipment, opening hours, location and entry fee.
@@ -45,7 +56,7 @@ I phone the number and book a class.
 
 ## Features
 ### Existing Features
-- Navbar - allows users to fluidly move between site pages by clicking on navbar items.
+- Navbar - allows users to fluidly move between site pages by clicking on navbar items. The logo will double as the homepage link.
 - Membership sign up button - allows non-members to sign up for membership.
 - Schedule timetable - allows members to book classes by checking availablility and calling the number to book a class.
 
