@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Staatliches&display=swap');
+
+/* Navbar */
+
+.navi-logo{
+    font-family: 'Staatliches', cursive;
+}
+
+/* Offers */
+
+.offers-container{
+    height: 100vh;
+
+    background: url(../images/danielle-cerullo-CQfNt66ttZM-unsplash.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: center;
+    position: relative;
+}
+
+/*credit - code for opaque-overlay taken from https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/tree/master/04-BeyondBootstrap/01-updating_our_callout*/
+.opaque-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/*credit - code to center text taken from https://www.w3schools.com/howto/howto_css_image_text.asp*/
+.offers{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.offerOne{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.offerOne h1, .offerTwo h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+.offerOne button, .offerTwo button{
+    margin-top: 15px;
+}
+
+/* Testimonials */
+
+.testimonials-container{
+    height: 100vh;
+}
+
+.section-header{
+    font-family: 'Anton', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.test-content{
+    padding-top: 100px;
+    font-family: 'Lato', sans-serif;
+}
+
+.test-content p{
+    font-size: 20px;
+}
+
+.test-name{
+    font-weight: 600;
+}
+
+.test-image{
+    float: left;
+    margin: 20px;
+}
+
+/* Schedule */
+
+.booking-number{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.trainer-info-container{
+    margin-top: 10px;
+}
+
+.trainer-info-container p{
+    font-family: 'Lato', sans-serif;
+}
+
+.trainer-info-container img{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: right;
+}
+
+/* Buttons */
+
+/* Media Queries */
+
+@media only screen and (max-width: 766px){
+    .test-content{
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 770px){
+    .trainer-info-container p{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    
+    .trainer-info-container img{
+        height: 200px;
+    }
+}

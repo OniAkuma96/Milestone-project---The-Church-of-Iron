@@ -56,7 +56,7 @@ I phone the number and book a class.
 
 ## Features
 ### Existing Features
-- Navbar - allows users to fluidly move between site pages by clicking on navbar items. The logo will double as the homepage link.
+- Navbar - allows users to fluidly move between site pages by clicking on navbar items. The logo will double as the homepage link. Social media links on right.
 - Membership sign up button - allows non-members to sign up for membership.
 - Schedule timetable - allows members to book classes by checking availablility and calling the number to book a class.
 
@@ -64,6 +64,49 @@ I phone the number and book a class.
 - Playable video about classes on about page - allows users to learn more about the classes by watching the video.
 - Database to store info of members allowing them to sign-in and book classes without phoning up.
 
-### Technologies Used
-- [Bootstrap](https://getbootstrap.com/)
-    - This project uses **Bootstrap** as a responsive, mobile-first framework for quick building and designing of site. 
+## Technologies Used
+
+- [Bootstrap v5.0](https://getbootstrap.com/)
+    - This project uses **Bootstrap** as a responsive, mobile-first framework for quick building and designing of site.
+
+- [Google Fonts](https://fonts.google.com/)
+    - This project uses **Google Fonts** for a range of fonts.
+
+- [Font Awsome](https://fontawesome.com/)
+    - This project uses font awsome icons for social media icons.
+
+## Testing
+
+### Bugs Discovered
+
+## Deployment
+
+## Credits
+
+### Code
+
+- CSS code to center text on image taken from [w3schools](https://www.w3schools.com/howto/howto_css_image_text.asp).
+
+- Code for hero image dark-overlay taken from [Code Institute](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/tree/master/04-BeyondBootstrap/01-updating_our_callout).
+
+### Content
+
+### Media
+
+- [Hero image](https://unsplash.com/photos/CQfNt66ttZM)
+
+- [Testimonial image 1](https://unsplash.com/photos/PcBbrjiShAk)
+
+- [Testimonial image 2](https://unsplash.com/photos/dr0TJa-zYQo)
+
+- [Testimonial image 3](https://unsplash.com/photos/hDuzP7wZl3Y)
+
+- [Trainer image 1](https://unsplash.com/photos/5MrFxXKzZ_o)
+
+- [Trainer image 2](https://unsplash.com/photos/kTg9Am_DNoE)
+
+- [Trainer image 3](https://unsplash.com/photos/6mRfNloPHlc)
+
+### Acknowledgements
+
+- I recieved inspiration for this project from [Code Institute - User Centric Frontend Development - Project Ideas](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/c75714c9636b4cf59120d60acbec6ffd/f851a16813f14b3aae7bd1e6560443cd/)
