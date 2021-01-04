@@ -55,43 +55,40 @@
     margin-top: 15px;
 }
 
+/* Page headers */
+
+.section-heading{
+    font-family: 'Anton', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
 /* Testimonials */
 
 .testimonials-container{
-    height: 100vh;
+    /*height: 100vh;*/
+    margin-top: 30px;
+    padding: 2px;
 }
 
-.section-header{
-    font-family: 'Anton', sans-serif;
-    font-size: 28px;
+.testimonials-container .section-heading{
+    margin-bottom: 30px;
+}
+
+.test-text-content{
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.test-content{
-    padding-top: 100px;
     font-family: 'Lato', sans-serif;
-}
-
-.test-content p{
-    font-size: 20px;
-}
-
-.test-name{
-    font-weight: 600;
-}
-
-.test-image{
-    float: left;
-    margin: 20px;
+    font-size: 21px;
+    margin-top: 20px;
 }
 
 /* Schedule */
 
 .booking-number{
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
+    font-style: italic;
     text-align: center;
 }
 
