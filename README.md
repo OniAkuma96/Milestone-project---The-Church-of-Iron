@@ -44,15 +44,8 @@ I click the button to sign up for membership.
 I phone the number and book a class.
 
 ### Wireframes
-- [Mobile Home]()
-- [Mobile Schedule]()
-- [Mobile About]()
-- [Tablet Home]()
-- [Tablet Schedule]()
-- [Tablet About]()
-- [Desktop Home]()
-- [Desktop Schedule]()
-- [Desktop About]()
+
+Wireframes for this project can be found in assets/wireframes
 
 ## Features
 ### Existing Features

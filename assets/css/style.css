@@ -6,10 +6,19 @@
     font-family: 'Staatliches', cursive;
 }
 
+/* Page headers */
+
+.section-heading{
+    font-family: 'Anton', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
 /* Offers */
 
 .offers-container{
-    height: 100vh;
+    height: 95vh;
 
     background: url(../images/danielle-cerullo-CQfNt66ttZM-unsplash.jpg) no-repeat center;
     -webkit-background-size: cover;
@@ -55,15 +64,6 @@
     margin-top: 15px;
 }
 
-/* Page headers */
-
-.section-heading{
-    font-family: 'Anton', sans-serif;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-}
-
 /* Testimonials */
 
 .testimonials-container{
@@ -76,11 +76,17 @@
     margin-bottom: 30px;
 }
 
-.test-text-content{
-    text-align: center;
+.blockquote-content{
+    margin-bottom: 30px;
+}
+
+.blockquote-content p{
     font-family: 'Lato', sans-serif;
-    font-size: 21px;
-    margin-top: 20px;
+    text-align: center;
+}
+
+.blockquote-content .member-name{
+    font-weight: bold;
 }
 
 /* Schedule */
@@ -109,12 +115,6 @@
 /* Buttons */
 
 /* Media Queries */
-
-@media only screen and (max-width: 766px){
-    .test-content{
-        padding-top: 50px;
-    }
-}
 
 @media only screen and (min-width: 770px){
     .trainer-info-container p{
