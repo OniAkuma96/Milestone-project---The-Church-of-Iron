@@ -1,6 +1,6 @@
 # Religious Fitness
 
-My goal with this project was to create an attractive site for a fake gym in London.
+My goal with this project was to create an attractive site for a gym in London.
 The gym is open to everyone and has a range of classes, from beginner to advanced, that members can sign up for.
 The site also has info on equipment, opening hours, location, a schedule for classes and some info on the classes from the trainers who run them.
 
