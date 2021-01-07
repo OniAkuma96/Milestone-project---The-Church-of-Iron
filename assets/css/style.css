@@ -2,8 +2,16 @@
 
 /* Navbar */
 
+#navbar-color{
+    background-color: #69b6ff;
+}
+
 .navi-logo{
     font-family: 'Staatliches', cursive;
+}
+
+.navbar a{
+    font-weight: 500;
 }
 
 /* Page headers */
@@ -110,6 +118,66 @@
     padding-top: 5px;
     padding-bottom: 5px;
     float: right;
+}
+
+/* About */
+
+.about-us-container{
+    padding: 50px;
+}
+
+.about-us-container h4{
+    font-weight: 700;
+}
+
+.about-us-container .row{
+    margin-top: 20px;
+}
+
+.open-history-wrap{
+    font-family: 'Lato', sans-serif;
+    display: contents;
+    text-align: center;
+}
+
+.about-us-container img{
+    float: right;
+}
+
+.equipment-classes-content-wrap{
+    font-family: 'Lato', sans-serif;
+    float: left;
+    margin-top: 50px;
+}
+
+/* Contact */
+
+.location-contact-info-wrap{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.location-contact-info-wrap h4{
+    font-weight: 700;
+}
+
+.contact-social-wrap{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-top: 90px;
+    margin-bottom: 91px;
+}
+
+.contact-social-wrap h4{
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.contact-social-wrap a{
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 /* Buttons */

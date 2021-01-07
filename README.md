@@ -100,6 +100,10 @@ Wireframes for this project can be found in assets/wireframes
 
 - [Trainer image 3](https://unsplash.com/photos/6mRfNloPHlc)
 
+- [Equipment photo 1](https://unsplash.com/photos/XKimW0pke6w)
+
+- [Classes photo 1](https://unsplash.com/photos/pFyKRmDiWEA)
+
 ### Acknowledgements
 
 - I recieved inspiration for this project from [Code Institute - User Centric Frontend Development - Project Ideas](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/c75714c9636b4cf59120d60acbec6ffd/f851a16813f14b3aae7bd1e6560443cd/)
