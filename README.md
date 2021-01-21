@@ -45,7 +45,7 @@ I phone the number and book a class.
 
 ### Wireframes
 
-Wireframes for this project can be found in assets/wireframes
+- [Wireframe folder](/assets/wireframes)
 
 ## Features
 ### Existing Features

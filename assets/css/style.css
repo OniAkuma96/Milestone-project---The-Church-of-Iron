@@ -28,7 +28,7 @@
 .offers-container{
     height: 95vh;
 
-    background: url(../images/danielle-cerullo-CQfNt66ttZM-unsplash.jpg) no-repeat center;
+    background: url(../images/hero-image-gym.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -176,8 +176,7 @@
 }
 
 .contact-social-wrap a{
-    font-size: 30px;
-    margin-bottom: 10px;
+    text-decoration: none;
 }
 
 /* Buttons */
@@ -188,6 +187,10 @@ footer{
     text-align: center;
     font-family: 'Lato', sans-serif;
     bottom: 0;
+}
+
+.footer-color{
+    background-color: #69b6ff;
 }
 
 .footer-container p{
