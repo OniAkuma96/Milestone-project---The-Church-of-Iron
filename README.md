@@ -59,6 +59,10 @@ I phone the number and book a class.
 
 ## Technologies Used
 
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+
 - [Bootstrap v5.0](https://getbootstrap.com/)
     - This project uses **Bootstrap** as a responsive, mobile-first framework for quick building and designing of site.
 

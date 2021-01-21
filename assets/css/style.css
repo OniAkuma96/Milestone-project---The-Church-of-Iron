@@ -14,6 +14,10 @@
     font-weight: 500;
 }
 
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
 /* Page headers */
 
 .section-heading{
@@ -26,7 +30,7 @@
 /* Offers */
 
 .offers-container{
-    height: 95vh;
+    height: calc(100vh - 56px);
 
     background: url(../images/hero-image-gym.jpg) no-repeat center;
     -webkit-background-size: cover;
@@ -62,22 +66,20 @@
     margin-bottom: 50px;
 }
 
-.offerOne h1, .offerTwo h1{
-    font-family: 'Lato', sans-serif;
-    font-weight: 600;
+.offerOne h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 75px;
     color: #fff;
 }
 
-.offerOne button, .offerTwo button{
+.offerOne button{
     margin-top: 15px;
 }
 
 /* Testimonials */
 
 .testimonials-container{
-    /*height: 100vh;*/
-    margin-top: 30px;
-    padding: 2px;
+    padding: 20px;
 }
 
 .testimonials-container .section-heading{
@@ -85,7 +87,7 @@
 }
 
 .blockquote-content{
-    margin-bottom: 30px;
+    margin: 30px;
 }
 
 .blockquote-content p{
@@ -97,7 +99,15 @@
     font-weight: bold;
 }
 
+.test-members-content img{
+    border: 2px solid grey;
+}
+
 /* Schedule */
+
+.schedule-container{
+    min-height: calc(100vh - 136px);
+}
 
 .booking-number{
     font-family: 'Lato', sans-serif;
@@ -110,19 +120,27 @@
     margin-top: 10px;
 }
 
+.rel_fit_trainer_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+    box-shadow: 2px 4px 8px 3px grey;
+}
+
 .trainer-info-container p{
     font-family: 'Lato', sans-serif;
 }
 
 .trainer-info-container img{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    float: right;
+    margin-top: 15px;
 }
 
 /* About */
 
 .about-us-container{
+    min-height: calc(100vh - 136px);
     padding: 50px;
 }
 
@@ -152,6 +170,10 @@
 
 /* Contact */
 
+.contact-us-container{
+    min-height: calc(100vh - 136px);
+}
+
 .location-contact-info-wrap{
     font-family: 'Lato', sans-serif;
     text-align: center;
@@ -166,8 +188,7 @@
     margin-top: 30px;
     text-align: center;
     font-family: 'Lato', sans-serif;
-    margin-top: 90px;
-    margin-bottom: 91px;
+    margin-top: 150px;
 }
 
 .contact-social-wrap h4{
@@ -179,7 +200,10 @@
     text-decoration: none;
 }
 
-/* Buttons */
+.contact-form-wrap{
+    padding: 20px;
+    margin-top: 10px;
+}
 
 /* Footer */
 
@@ -187,6 +211,7 @@ footer{
     text-align: center;
     font-family: 'Lato', sans-serif;
     bottom: 0;
+    height: 80px;
 }
 
 .footer-color{
@@ -194,13 +219,18 @@ footer{
 }
 
 .footer-container p{
-    color: #fff;
+    color: #000;
 }
 
 .footer-container a{
-    font-size: 22px;
-    margin-right: 1px;
-    margin-left: 1px;
+    color: #000;
+    font-size: 32px;
+    margin: 2px;
+    padding: 5px;
+}
+
+.footer-container a:hover{
+    color: rgb(63, 63, 63);
 }
 
 /* Media Queries */
