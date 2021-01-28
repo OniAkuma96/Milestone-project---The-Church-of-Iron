@@ -82,10 +82,6 @@ I phone the number and book a class.
 
 ### Code
 
-- CSS code to center text on image taken from [w3schools](https://www.w3schools.com/howto/howto_css_image_text.asp).
-
-- Code for hero image dark-overlay taken from [Code Institute](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/tree/master/04-BeyondBootstrap/01-updating_our_callout).
-
 ### Content
 
 ### Media
