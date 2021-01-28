@@ -76,6 +76,8 @@ I phone the number and book a class.
 
 ### Bugs Discovered
 
+- Navbar and footer not the same shade of blue. Navbar on homepage slightly lighter than navbar on other three pages.
+
 ## Deployment
 
 ## Credits

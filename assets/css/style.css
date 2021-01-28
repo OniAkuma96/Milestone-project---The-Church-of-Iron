@@ -11,7 +11,7 @@
 }
 
 .navbar a{
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .navbar-collapse{
@@ -33,20 +33,20 @@
     height: calc(100vh - 56px);
 
     background: url(../images/hero-image-gym.jpg) no-repeat center;
-    background-size: cover;
-}
-
-/*.pricing-container{
-    height: calc(100vh - 56px);
-
-    background: url(../images/hero-image-gym.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: center;
-    position: relative;
-}*/
+}
+
+.card{
+    font-family: 'Lato', sans-serif;
+}
+
+.card-header{
+    font-size: 20px;
+    font-weight: 500;
+}
 
 /* Testimonials */
 
@@ -89,7 +89,7 @@
 }
 
 .trainer-info-container{
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .rel_fit_trainer_info{
@@ -177,6 +177,10 @@
     margin-top: 10px;
 }
 
+.contact-form-wrap input, .contact-form-wrap label, .contact-form-wrap textarea{
+    padding: 5px;
+}
+
 /* Footer */
 
 footer{
@@ -192,6 +196,7 @@ footer{
 
 .footer-container p{
     color: #000;
+    margin: 0;
 }
 
 .footer-container a{
@@ -215,5 +220,47 @@ footer{
     
     .trainer-info-container img{
         height: 200px;
+    }
+}
+
+@media only screen and (max-width: 1357px){
+    .about-us-container img{
+        height: 200px;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 911px){
+    .about-us-container img{
+        height: 130px;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .about-us-container{
+        padding: 20px;
+    }
+
+    .about-us-container img{
+        height: 200px;
+        float: none;
+        margin-top: 0;
+    }
+
+    .open-history-wrap{
+        text-align: left;
+    }
+
+    .location-contact-info-wrap{
+        margin-top: 10px;
+    }
+
+    .contact-social-wrap{
+        margin-top: 10px;
+    }
+
+    .contact-us-container img{
+        margin-bottom: 10px;
     }
 }
