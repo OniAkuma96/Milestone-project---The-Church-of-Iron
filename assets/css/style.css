@@ -39,8 +39,15 @@
     background-size: cover;
 }
 
+.card-group{
+    justify-content: center;
+}
+
 .card{
     font-family: 'Lato', sans-serif;
+    max-width: 18rem;
+    border: 1px solid grey;
+    margin: 10px;
 }
 
 .card-header{
@@ -89,7 +96,7 @@
 }
 
 .trainer-info-container{
-    margin-top: 30px;
+    margin-top: 75px;
 }
 
 .rel_fit_trainer_info{
@@ -212,7 +219,7 @@ footer{
 
 /* Media Queries */
 
-@media only screen and (min-width: 770px){
+@media only screen and (min-width: 500px){
     .trainer-info-container p{
         margin-top: 50px;
         font-size: 20px;
@@ -220,6 +227,13 @@ footer{
     
     .trainer-info-container img{
         height: 200px;
+    }
+}
+
+@media only screen and (max-width: 1399px){
+    .trainer-info-container{
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
 
