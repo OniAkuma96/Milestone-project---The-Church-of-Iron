@@ -70,7 +70,10 @@ I phone the number and book a class.
     - This project uses **Google Fonts** for a range of fonts.
 
 - [Font Awsome](https://fontawesome.com/)
-    - This project uses font awsome icons for social media icons.
+    - This project uses **Font Awsome** icons for social media icons.
+
+- [Tiny PNG](https://tinypng.com/)
+    - This project uses **Tiny PNG** for compression of image size with minimal quality loss.
 
 ## Testing
 
@@ -84,11 +87,15 @@ I phone the number and book a class.
 
 ### Code
 
+- [Code for centering content using translateX](https://css-tricks.com/forums/topic/horizontal-centering-of-an-absolute-element/)
+
 ### Content
 
 ### Media
 
 - [Hero image](https://unsplash.com/photos/CQfNt66ttZM)
+
+-[Covid saftey badge](https://www.healthmates.com.au/wp-content/uploads/2020/06/COVID_Safe_Badge_Digital.png)
 
 - [Testimonial image 1](https://unsplash.com/photos/PcBbrjiShAk)
 

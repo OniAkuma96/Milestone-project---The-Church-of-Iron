@@ -39,8 +39,17 @@
     background-size: cover;
 }
 
+/* Code for centering the cards found at https://css-tricks.com/forums/topic/horizontal-centering-of-an-absolute-element/ */
 .card-group{
-    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    
+    margin-bottom: 50px;
 }
 
 .card{
