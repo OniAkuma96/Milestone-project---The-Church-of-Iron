@@ -20,6 +20,12 @@
 
 /* Page headers */
 
+.homepage-logo{
+    font-family: 'Staatliches', cursive;
+    font-size: 470%;
+    padding-top: 40px;
+}
+
 .section-heading{
     font-family: 'Anton', sans-serif;
     padding-top: 10px;
@@ -27,9 +33,38 @@
     text-align: center;
 }
 
+/* Saftey badge, homepage logo and slogan */
+
+.logo-slogan-wrap{
+    height: 13rem;
+    width: 35rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    position: absolute;
+    top: 200px;
+
+    /* Code for centering the cards found at https://css-tricks.com/forums/topic/horizontal-centering-of-an-absolute-element/ */
+
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.slogan{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.saftey-and-pricing-container img{
+    float: right;
+    margin: 50px;
+}
+
 /* Pricing */
 
-.pricing-container{
+.saftey-and-pricing-container{
     height: calc(100vh - 56px);
 
     background: url(../images/hero-image-gym.jpg) no-repeat center;
@@ -49,6 +84,7 @@
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
     
+    display: flex;
     margin-bottom: 50px;
 }
 
@@ -57,11 +93,25 @@
     max-width: 18rem;
     border: 1px solid grey;
     margin: 10px;
+    min-width: 10rem;
 }
 
 .card-header{
     font-size: 20px;
     font-weight: 500;
+    background-color: #dcdcdc;
+}
+
+.card-header h4{
+    margin: 0;
+}
+
+.card-body{
+    padding: 10px;
+}
+
+.card-body p{
+    padding: 5px;
 }
 
 /* Testimonials */
@@ -239,6 +289,37 @@ footer{
     }
 }
 
+@media only screen and (max-width: 560px){
+    .logo-slogan-wrap{
+        width: 100px;
+        font-size: ;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .saftey-and-pricing-container img{
+        height: 150px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .saftey-and-pricing-container img{
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 1185px){
+    .logo-slogan-wrap{
+        font-size: 75%;
+        top: 100px;
+    }
+
+    .card-header h4, .card-body p, .card-footer button{
+        font-size: 75%;
+    }
+}
+
 @media only screen and (max-width: 1399px){
     .trainer-info-container{
         margin-top: 20px;
@@ -285,5 +366,333 @@ footer{
 
     .contact-us-container img{
         margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .logo-slogan-wrap{
+        width: 290px;
+        font-size: 64%;
+        top: 130px;
+    }
+
+    .slogan{
+        font-size: 20px;
+    }
+
+    .saftey-and-pricing-container img{
+        height: 88px;
+        margin: 2px;
+    }
+
+    .card-group{
+        margin-bottom: 0;
+    }
+    
+    .card{
+        margin: 4px;
+        min-width: 7rem;
+    }
+
+    .card-body p, .card-footer button{
+        font-size: 80%;
+    }
+
+    .card-header h4{
+        font-size: 14px;
+    }
+
+    .card-header{
+        padding: 4px;
+    }
+
+    .card-body h1{
+        font-size: 23px;
+        margin-bottom: 4px;
+    }
+
+    .card-text{
+        padding: 2px;
+    }
+
+    .card-footer{
+        padding: 5px;
+    }
+
+    .btn-lg{
+        padding: 6px;
+    }
+}
+
+@media only screen and (max-width: 411px){
+    .logo-slogan-wrap{
+        width: 290px;
+        font-size: 64%;
+        top: 130px;
+    }
+
+    .slogan{
+        font-size: 20px;
+    }
+
+    .saftey-and-pricing-container img{
+        height: 88px;
+        margin: 2px;
+    }
+
+    .card-group{
+        margin-bottom: 0;
+    }
+    
+    .card{
+        margin: 4px;
+        min-width: 7rem;
+    }
+
+    .card-body p, .card-footer button{
+        font-size: 80%;
+    }
+
+    .card-header h4{
+        font-size: 14px;
+    }
+
+    .card-header{
+        padding: 4px;
+    }
+
+    .card-body h1{
+        font-size: 23px;
+        margin-bottom: 4px;
+    }
+
+    .card-text{
+        padding: 2px;
+    }
+
+    .card-footer{
+        padding: 5px;
+    }
+
+    .btn-lg{
+        padding: 6px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .logo-slogan-wrap{
+        width: 290px;
+        font-size: 64%;
+        top: 130px;
+    }
+
+    .slogan{
+        font-size: 20px;
+    }
+
+    .saftey-and-pricing-container img{
+        height: 88px;
+        margin: 2px;
+    }
+
+    .card-group{
+        margin-bottom: 0;
+    }
+    
+    .card{
+        margin: 4px;
+        min-width: 7rem;
+    }
+
+    .card-body p, .card-footer button{
+        font-size: 80%;
+    }
+
+    .card-header h4{
+        font-size: 14px;
+    }
+
+    .card-header{
+        padding: 4px;
+    }
+
+    .card-body h1{
+        font-size: 23px;
+        margin-bottom: 4px;
+    }
+
+    .card-text{
+        padding: 2px;
+    }
+
+    .card-footer{
+        padding: 5px;
+    }
+
+    .btn-lg{
+        padding: 6px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .logo-slogan-wrap{
+        width: 240px;
+        font-size: 60%;
+        top: 110px;
+    }
+
+    .slogan{
+        font-size: 18px;
+    }
+
+    .saftey-and-pricing-container img{
+        height: 75px;
+        margin: 2px;
+    }
+
+    .card-group{
+        margin-bottom: 0;
+    }
+    
+    .card{
+        margin: 4px;
+    }
+
+    .card-body p, .card-footer button{
+        font-size: 70%;
+    }
+
+    .card-header h4{
+        font-size: 14px;
+    }
+
+    .card-header{
+        padding: 2px;
+    }
+
+    .card-body h1{
+        font-size: 22px;
+        margin-bottom: 3px;
+    }
+
+    .card-text{
+        padding: 2px;
+    }
+
+    .card-footer{
+        padding: 4px;
+    }
+
+    .btn-lg{
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .logo-slogan-wrap{
+        width: 240px;
+        font-size: 60%;
+        top: 110px;
+    }
+
+    .slogan{
+        font-size: 18px;
+    }
+
+    .saftey-and-pricing-container img{
+        height: 75px;
+        margin: 2px;
+    }
+
+    .card-group{
+        margin-bottom: 0;
+    }
+    
+    .card{
+        margin: 2px;
+        min-width: 6rem;
+    }
+
+    .card-body p, .card-footer button{
+        font-size: 60%;
+    }
+
+    .card-header h4{
+        font-size: 10px;
+    }
+
+    .card-header{
+        padding: 2px;
+    }
+
+    .card-body h1{
+        font-size: 18px;
+        margin-bottom: 1px;
+    }
+
+    .card-text{
+        padding: 2px;
+    }
+
+    .card-footer{
+        padding: 4px;
+    }
+
+    .btn-lg{
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .logo-slogan-wrap{
+        width: 240px;
+        font-size: 50%;
+        top: 139px;
+    }
+
+    .slogan{
+        font-size: 16px;
+    }
+
+    .saftey-and-pricing-container img{
+        height: 75px;
+        margin: 2px;
+    }
+
+    .card-group{
+        margin-bottom: 20px;
+    }
+    
+    .card{
+        margin: 1px;
+        min-width: 5rem;
+    }
+
+    .card-body p, .card-footer button{
+        font-size: 60%;
+    }
+
+    .card-header h4{
+        font-size: 10px;
+    }
+
+    .card-header{
+        padding: 2px;
+    }
+
+    .card-body h1{
+        font-size: 18px;
+    }
+
+    .card-text{
+        padding: 2px;
+    }
+
+    .card-footer{
+        padding: 4px;
+    }
+
+    .btn-lg{
+        padding: 5px;
     }
 }
