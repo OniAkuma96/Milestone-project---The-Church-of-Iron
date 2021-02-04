@@ -81,8 +81,6 @@ I phone the number and book a class.
 
 - Navbar and footer not the same shade of blue. Navbar on homepage slightly lighter than navbar on other three pages.
 
-- Collapsable navbar overflows and is blocked by logo/slogan on smaller screen sizes.
-
 ## Deployment
 
 ## Credits
@@ -95,7 +93,7 @@ I phone the number and book a class.
 
 - [Hero image](https://unsplash.com/photos/CQfNt66ttZM)
 
--[Covid saftey badge](https://www.healthmates.com.au/wp-content/uploads/2020/06/COVID_Safe_Badge_Digital.png)
+- [Covid saftey badge](https://www.healthmates.com.au/wp-content/uploads/2020/06/COVID_Safe_Badge_Digital.png)
 
 - [Testimonial image 1](https://unsplash.com/photos/PcBbrjiShAk)
 
