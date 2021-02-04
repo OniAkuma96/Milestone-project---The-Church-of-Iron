@@ -81,13 +81,13 @@ I phone the number and book a class.
 
 - Navbar and footer not the same shade of blue. Navbar on homepage slightly lighter than navbar on other three pages.
 
+- Collapsable navbar overflows and is blocked by logo/slogan on smaller screen sizes.
+
 ## Deployment
 
 ## Credits
 
 ### Code
-
-- [Code for centering content using translateX](https://css-tricks.com/forums/topic/horizontal-centering-of-an-absolute-element/)
 
 ### Content
 
