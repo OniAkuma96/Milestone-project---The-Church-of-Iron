@@ -20,12 +20,6 @@
 
 /* Page headers */
 
-.homepage-logo{
-    font-family: 'Staatliches', cursive;
-    font-size: 470%;
-    padding-top: 40px;
-}
-
 .section-heading{
     font-family: 'Anton', sans-serif;
     padding-top: 10px;
@@ -33,30 +27,10 @@
     text-align: center;
 }
 
-/* Saftey badge, homepage logo and slogan */
-
-.logo-slogan-wrap{
-    z-index: 1;
-    height: 13rem;
-    width: 35rem;
+.price-header{
     background-color: rgba(255, 255, 255, 0.5);
-    text-align: center;
+    width: 400px;
     margin: auto;
-
-    position: relative;
-    top: 50px;
-}
-
-.slogan{
-    font-family: 'Lato', sans-serif;
-    font-weight: 600;
-}
-
-.saftey-and-pricing-container img{
-    float: right;
-    position: relative;
-    top: -180px;
-
 }
 
 /* Pricing */
@@ -71,12 +45,34 @@
     background-size: cover;
 }
 
-.pricing-container{
-    position: relative;
-    top: 140px;
+.card-group{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
 }
 
-/* Code for centering the cards found at https://css-tricks.com/forums/topic/horizontal-centering-of-an-absolute-element/ */
+.card{
+    font-family: 'Lato', sans-serif;
+    max-width: 30rem;
+    min-width: 11rem;
+    margin: 5px;
+    border: 1px solid rgb(177, 177, 177);
+}
+
+.card-header{
+    background-color: rgb(177, 177, 177);
+    padding: 4px;
+}
+
+.card-header h4{
+    margin-bottom: 4px;
+}
+
+.card-body{
+    padding: 8px;
+}
+
+/* Code for centering the cards found at https://css-tricks.com/forums/topic/horizontal-centering-of-an-absolute-element/ 
 .card-group{
     display: flex;
     flex-flow: row;
@@ -86,32 +82,6 @@
     -moz-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
-}
-
-.card{
-    font-family: 'Lato', sans-serif;
-    max-width: 18rem;
-    border: 1px solid grey;
-    margin: 10px;
-    min-width: 16rem;
-}
-
-.card-header{
-    font-size: 20px;
-    font-weight: 500;
-    background-color: #c5c5c5;
-}
-
-.card-header h4{
-    margin: 0;
-}
-
-.card-body{
-    padding: 10px;
-}
-
-.card-body p{
-    padding: 5px;
 }
 
 /* Testimonials */
@@ -303,48 +273,32 @@ footer{
     }
 }
 
-@media only screen and (max-width: 1024px){
-    .saftey-and-pricing-container img{
-        height: 175px;
-    }
-
-    .card{
-        min-width: 14rem;
-    }
-}
-
 @media only screen and (max-width: 911px){
-    .saftey-and-pricing-container img{
-        height: 150px;
-    }
-    
     .about-us-container img{
         height: 130px;
         margin-top: 50px;
     }
 }
 
-@media only screen and (max-width: 768px){
-    .logo-slogan-wrap{
-        top: 130px;
-    }
-    
-    .saftey-and-pricing-container img{
-        height: 120px;
-    }
-
-    .pricing-container{
-        top: 180px;
-    }
-
-    .card{
-        min-width: 10rem;
-    }
-}
-
 @media only screen and (max-width: 575px){
+    .saftey-and-pricing-container img{
+        height: 15vw;
+    }
+
     .card{
         min-width: 8rem;
+    }
+
+    .card-body h1{
+        font-size: 28px;
+    }
+
+    .card-header h4, .card-body p, .card-footer button{
+        font-size: 90%;
+    }
+
+    .btn-lg{
+        padding: 4px 8px;
     }
 
     .about-us-container{
@@ -374,284 +328,57 @@ footer{
     }
 }
 
-@media only screen and (max-width: 540px){
-    .logo-slogan-wrap{
-        width: 380px;
-        font-size: 64%;
-        top: 90px;
-    }
-    
-    .saftey-and-pricing-container img{
-        height: 100px;
-    }
-
-    .pricing-container{
-        top: 140px;
-    }
-
-    .card{
-        min-width: 10rem;
-    }
-
-    .card-body p, .card-footer button{
-        font-size: 80%;
-    }
-
-    .card-header h4{
-        font-size: 14px;
-    }
-
-    .card-header{
-        padding: 4px;
-    }
-
-    .card-body h1{
-        font-size: 23px;
-        margin-bottom: 4px;
-    }
-
-    .card-text{
-        padding: 2px;
-    }
-
-    .card-footer{
-        padding: 5px;
-    }
-
-    .btn-lg{
-        padding: 6px;
-    }
-}
-
 @media only screen and (max-width: 414px){
-    .saftey-and-pricing-container img{
-        height: 75px;
-    }
-
-    .pricing-container{
-        top: 120px;
+    .price-header{
+        width: 100%;
     }
 
     .card{
-        min-width: 8rem;
-        margin: 2px;
+        min-width: 6rem;
+    }
+
+    .card-body h1{
+        font-size: 26px;
     }
 
     .card-body p, .card-footer button{
         font-size: 80%;
     }
 
-    .card-header h4{
-        font-size: 14px;
-    }
-
-    .card-header{
-        padding: 4px;
-    }
-
-    .card-body h1{
-        font-size: 22px;
-        margin-bottom: 4px;
-    }
-
-    .card-text{
-        padding: 2px;
-    }
-
     .card-footer{
         padding: 5px;
-    }
-
-    .btn-lg{
-        padding: 6px;
     }
 }
 
 @media only screen and (max-width: 375px){
-    .logo-slogan-wrap{
-        width: 290px;
-        font-size: 64%;
-        top: 40px;
-    }
-
-    .slogan{
-        font-size: 20px;
-    }
-
-    .saftey-and-pricing-container img{
-        height: 70px;
-        top: -200px;
-    }
-
-    .pricing-container{
-        top: 55px;
-    }
-
-    .card-group{
-        margin-bottom: 0;
-    }
-    
     .card{
-        margin: 4px;
-        min-width: 7rem;
-    }
-
-    .card-body p, .card-footer button{
-        font-size: 80%;
-    }
-
-    .card-header h4{
-        font-size: 14px;
-    }
-
-    .card-header{
-        padding: 4px;
-    }
-
-    .card-body h1{
-        font-size: 23px;
-        margin-bottom: 4px;
-    }
-
-    .card-text{
-        padding: 2px;
-    }
-
-    .card-footer{
-        padding: 5px;
-    }
-
-    .btn-lg{
-        padding: 6px;
-    }
-}
-
-@media only screen and (max-width: 360px){
-    .logo-slogan-wrap{
-        width: 240px;
-        font-size: 60%;
-        top: 40px;
-    }
-
-    .slogan{
-        font-size: 18px;
-    }
-
-    .saftey-and-pricing-container img{
-        height: 65px;
-    }
-
-    .pricing-container{
-        top: 70px;
-    }
-
-    .card-group{
-        margin-bottom: 0;
-    }
-    
-    .card{
-        margin: 4px;
-    }
-
-    .card-body p, .card-footer button{
-        font-size: 70%;
-    }
-
-    .card-header h4{
-        font-size: 14px;
-    }
-
-    .card-header{
-        padding: 2px;
+        margin: 2px;
     }
 
     .card-body h1{
         font-size: 22px;
-        margin-bottom: 3px;
     }
 
-    .card-text{
-        padding: 2px;
-    }
-
-    .card-footer{
-        padding: 4px;
-    }
-
-    .btn-lg{
-        padding: 5px;
+    .card-header h4, .card-body p, .card-footer button{
+        font-size: 70%;
     }
 }
 
 @media only screen and (max-width: 320px){
-    .logo-slogan-wrap{
-        width: 240px;
-        font-size: 60%;
-        top: 25px;
+    .container-fluid{
+        padding-right: 0;
+        padding-left: 0;
     }
 
-    .slogan{
-        font-size: 18px;
-    }
-
-    .pricing-container{
-        top: 30px;
-    }
-
-    .saftey-and-pricing-container img{
-        height: 50px;
-        
-    }
-
-    .card-group{
-        margin-bottom: 0;
-    }
-    
-    .card{
-        margin: 2px;
-        min-width: 6rem;
-    }
-
-    .card-body p, .card-footer button{
-        font-size: 60%;
-    }
-
-    .card-header h4{
-        font-size: 10px;
-    }
-
-    .card-header{
-        padding: 2px;
-    }
-
-    .card-body h1{
-        font-size: 18px;
-        margin-bottom: 1px;
-    }
-
-    .card-text{
-        padding: 2px;
-    }
-
-    .card-footer{
-        padding: 4px;
-    }
-
-    .btn-lg{
-        padding: 5px;
-    }
-}
-
-@media only screen and (max-width: 280px){
     .card{
         min-width: 5rem;
     }
 
-    .saftey-and-pricing-container img{
-        top: -208px;
+    .card-body h1{
+        font-size: 20px;
     }
 
-    .pricing-container{
-        top: 60px;
+    .card-header h4, .card-body p, .card-footer button{
+        font-size: 60%;
     }
 }

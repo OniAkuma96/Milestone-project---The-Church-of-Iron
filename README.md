@@ -81,6 +81,8 @@ I phone the number and book a class.
 
 - Navbar and footer not the same shade of blue. Navbar on homepage slightly lighter than navbar on other three pages.
 
+- On very small screen width (< 320px) there's white bar on right of screen on homepage.
+
 ## Deployment
 
 ## Credits
