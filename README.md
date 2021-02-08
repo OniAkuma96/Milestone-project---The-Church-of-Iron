@@ -2,7 +2,8 @@
 
 My goal with this project was to create an attractive site for a gym in London.
 The gym is open to everyone and has a range of classes, from beginner to advanced, that members can sign up for.
-The site also has info on equipment, opening hours, location, a schedule for classes and some info on the classes from the trainers who run them.
+The site also has info on history, equipment, opening hours, location, a schedule for classes and some info on the classes from the trainers who run them.
+Finally the site will feature a contact form and social media links.
 
 ## UX
 
@@ -11,17 +12,19 @@ non-members sign up.
 
 Users of this site will be members and non-members, who just want to work-out, and members who want to book a class.
 
-Non-members can check the equipment, opening hours/location and use the gym facilities upon paying an entry fee. 
-Non-members can also see offers, read testimonials and potentially sign up for membership.
-The same can be said for members except they get free entry. 
-Members can also book classes from a range of classes, ranging from begginer to advanced. 
+Non-members can check the equipment, opening hours/location and use the gym facilities upon paying an entry fee.
+Non-members can pay the entry fee in advance or pay for 10 enteries at a discounted price. 
+Also non-members can see offers, read testimonials and potentially sign up for membership.
+The same can be said for members except they get free entry and priority if there's limited space. 
+Members can also book classes from a range of classes, from begginer to advanced. 
 These user-types will be enticed by our prices, impressed with our facilities/testimonials/classes, and will find all the info they need, logically laid out, to start using our gym.
 
-Info will be grouped into three pages, home, schedule and about. The homepage will feature offers for potential members,
-info on the equipment, and testimonials from existing members. Grouping these pieces of info will hopefully encourage non-members to sign up for membership.
+Info will be grouped into four pages, home, schedule, about, and contact. The homepage will feature our prices, offers for potential members,
+and testimonials from existing members. Grouping these pieces of info will hopefully encourage non-members to sign up for membership.
 The schedule page will feature a timetable of the classes, a phone number to make a booking, and some info on the classes from the trainers who run them.
 Everything a member needs to book a class is on this page.
-The about page will feature all the info a user could want. It will go more in-depth about the equipment, location/opening hours and the classes.
+The about page will feature some info on the gym for those interested. It will go more in-depth about the opening hours, equipment, history and the classes.
+Finally the contact page will feature a map with the gym's location, a contact form for those who need to ask us something, and some links to our social media and what users will find there.
 
 The homepage will feature picutres of happy people exercising to convey the feeling that our gym is a nice place to exercise
 and the theme of the site will be blue and white for the same reason.
@@ -30,16 +33,21 @@ The schedule page will have a timetable for the classes and some info about said
 This will help members find a class that suits them. The pictures/text will hopefully encourage members to book a class by establishing a personal connection with the trainers.
 
 The about page will feature a section about the equipment with a picture. To let users know about all the equipment the gym has.
-Also a section about where to find us, with a picture/map.
 And finally a section about the classes and trainers who run them with a picture.
+
+The contact page will have a picture map of our location but possible in the futre an interactive google maps one with an option for directions.
+It will have a contact for with a required email field so we can reply to queries through users email.
 
 I will use Bootstrap as a mobile-first framework for fast building and designing of the site.
 
 ### User Stories:
+
 - As a non-member I want to use the gym facilities. I go to the about page, check the equipment, opening hours, location and entry fee.
+
 - As a non-member I want to sign up for membership. I check the gym has the right equipment. I check the opening hours and location. 
 I read the testimonials to see what existing members have to say about the gym. I possibly check the schedule to see if there is a class that is suitable for me. 
 I click the button to sign up for membership.
+
 - As a member I want to book a class. I check the schedule to see if there is a class that suits my experience level and is at a time when I am available.
 I phone the number and book a class.
 
@@ -48,14 +56,22 @@ I phone the number and book a class.
 - [Wireframe folder](/assets/wireframes)
 
 ## Features
+
 ### Existing Features
+
 - Navbar - allows users to fluidly move between site pages by clicking on navbar items. The logo will double as the homepage link. Social media links on right.
+
 - Membership sign up button - allows non-members to sign up for membership.
+
 - Schedule timetable - allows members to book classes by checking availablility and calling the number to book a class.
 
 ### Features to impliment in future
+
 - Playable video about classes on about page - allows users to learn more about the classes by watching the video.
+
 - Database to store info of members allowing them to sign-in and book classes without phoning up.
+
+- Interactive google maps map with option for directions rather to replace simple picture map on contact page.
 
 ## Technologies Used
 
@@ -81,7 +97,7 @@ I phone the number and book a class.
 
 - Navbar and footer not the same shade of blue. Navbar on homepage slightly lighter than navbar on other three pages.
 
-- On very small screen width (< 320px) there's white bar on right of screen on homepage.
+- About page too wide the text does not display without overflowing past the screen edge.
 
 ## Deployment
 
