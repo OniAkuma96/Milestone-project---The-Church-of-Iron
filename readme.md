@@ -133,6 +133,8 @@ everything loads properly and works as intended.
 
 - ~~Navbar hidden by content when expanded on homepage.~~ Fixed - changed content to relative position.
 
+- ~~Pricing cards different widths on smaller screen sizes.~~ Fixed - used media queries.
+
 ## Deployment
 
 - For deployment I used [Github Pages](https://oniakuma96.github.io/Milestone-project-Religious_Fitness/) for hosting
