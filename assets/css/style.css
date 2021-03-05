@@ -206,6 +206,15 @@
     margin: 4px;
 }
 
+.contact-form-wrap input, .contact-form-wrap label, .contact-form-wrap textarea{
+    padding: 2px;
+    margin: 2px;
+}
+
+.contact-form-wrap textarea{
+    width: 245px;
+}
+
 /* Footer */
 
 footer{
@@ -396,15 +405,6 @@ footer{
     .about-us-container img{
         height: 100px;
     }
-}
-
-.contact-form-wrap input, .contact-form-wrap label, .contact-form-wrap textarea{
-    padding: 2px;
-    margin: 2px;
-}
-
-.contact-form-wrap textarea{
-    width: 245px;
 }
 
 @media only screen and (max-width: 280px){
