@@ -42,16 +42,16 @@ I will use Bootstrap as a mobile-first framework for fast building and designing
 
 ### User Stories:
 
-    1) As a non-member I want to use the gym facilities. I potentially pay the entry fee now. I potential check opening hours, location, and equipment on about/contact pages.
+1) As a non-member I want to use the gym facilities. I potentially pay the entry fee now. I potential check opening hours, location, and equipment on about/contact pages.
 
-    2) As a non-member I want to sign up for membership. I have used the gym before so I know it has all the right stuff or I check the about/contact pages to make sure it does. 
-    I read the testimonials to see what existing members have to say about the gym. I possibly check the schedule to see if there is a class that is suitable for me. 
-    I click the button to sign up for membership.
+2) As a non-member I want to sign up for membership. I have used the gym before so I know it has all the right stuff or I check the about/contact pages to make sure it does. 
+I read the testimonials to see what existing members have to say about the gym. I possibly check the schedule to see if there is a class that is suitable for me. 
+I click the button to sign up for membership.
 
-    3) As a member I want to book a class. I check the schedule to see if there is a class that suits my experience level and is at a time when I am available.
-    I phone the number and book a class.
+3) As a member I want to book a class. I check the schedule to see if there is a class that suits my experience level and is at a time when I am available.
+I phone the number and book a class.
 
-    4) As a user I need to know something about the gym which is not specified on any of the pages. I use the contact form to ask, filling out both the required email and textarea fields.
+4) As a user I need to know something about the gym which is not specified on any of the pages. I use the contact form to ask, filling out both the required email and textarea fields.
 
 ### Wireframes
 
@@ -109,13 +109,13 @@ everything loads properly and works as intended.
 
 ### User Stories Tests
 
-    1) Navbar works and allows users to navigate through the site's pages for relevant info. Payment buttons on homepage are present but do not do anything at the moment.
+1) Navbar works and allows users to navigate through the site's pages for relevant info. Payment buttons on homepage are present but do not do anything at the moment.
 
-    2) Navbar allows user to move to relevant pages for info. Testimonials display below offers with the headline visible on the homepage. Buttons are there but do not go anywhere/do anything at the moment.
+2) Navbar allows user to move to relevant pages for info. Testimonials display below offers with the headline visible on the homepage. Buttons are there but do not go anywhere/do anything at the moment.
 
-    3) From homepage go to schedule page. The number and table display all relevant info. They work on all screen sizes.
+3) From homepage go to schedule page. The number and table display all relevant info. They work on all screen sizes.
 
-    4) From homepage clock on contact page. Fill out contact form. Form does not send without the two required fields being filled out, email and textarea, as intended. Add email and question in textarea field and it works.
+4) From homepage clock on contact page. Fill out contact form. Form does not send without the two required fields being filled out, email and textarea, as intended. Add email and question in textarea field and it works.
 
 ### Bugs Discovered
 
