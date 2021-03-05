@@ -5,6 +5,8 @@ The gym is open to everyone and has a range of classes, from beginner to advance
 The site also has info on history, equipment, opening hours, location, a schedule for classes and some info on the classes from the trainers who run them.
 Finally the site will feature a contact form and social media links.
 
+![Mockup of homepage displayed on different devices](/assets/images/amiresponsive.jpg)
+
 ## UX
 
 The goal of this site is to maximise users of the gym ensuring that anyone who wants to use it can find everything they need to start doing so and also to increase the number of members by having
@@ -57,8 +59,6 @@ I phone the number and book a class.
 
 - [Wireframe folder](/assets/wireframes)
 
-- [Mockup](/assets/images/amiresponsive.jpg)
-
 ## Features
 
 ### Existing Features
@@ -105,7 +105,15 @@ I phone the number and book a class.
 ## Testing
 
 - Throughout the building process I have been using chrome so I know for sure everything is working as intended in google chrome browser. I have also tested on Firefox and Edge to ensure
-everything loads properly and works as intended. 
+everything loads properly and works as intended.
+
+- Next I tested everything on my phone to make sure everything was good even though I had used chrome inspect feature to test different screen sizes just to make sure.
+
+- Lastly I used an iPad mini for tablet testing.
+
+- Tested HTML code in W3 validator and passed.
+
+- Tested CSS code in Jigsaw validator and passed.
 
 ### User Stories Tests
 
@@ -128,6 +136,14 @@ everything loads properly and works as intended.
 ## Deployment
 
 - For deployment I used [Github Pages](https://oniakuma96.github.io/Milestone-project-Religious_Fitness/) for hosting
+
+1 Open GitHub homepage and sign in.
+
+2 Go to my project's repository, then settings.
+
+3 Scrolled down to GitHub Pages section.
+
+4 Selected source branch as master and published the site [here](https://oniakuma96.github.io/Milestone-project-Religious_Fitness/)
 
 ## Credits
 
