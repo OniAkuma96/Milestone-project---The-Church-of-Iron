@@ -340,6 +340,7 @@ footer{
 
     .card{
         min-width: 6rem;
+        max-width: 7rem;
     }
 
     .card-body h1{
@@ -372,10 +373,6 @@ footer{
 @media only screen and (max-width: 320px){
     .section-heading{
         margin-bottom: 5px;
-    }
-
-    .card{
-        min-width: 5rem;
     }
 
     .card-body h1{
